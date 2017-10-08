@@ -2,10 +2,10 @@ import React from 'react'
 import { AppRegistry } from 'react-native'
 import App from './src/App'
 
-const ReactNativeStarter = () => (
+const OfflineDemo = () => (
   <App />
 )
 
-export default ReactNativeStarter
+export default OfflineDemo
 
-AppRegistry.registerComponent('ReactNativeStarter', () => ReactNativeStarter)
+AppRegistry.registerComponent('OfflineDemo', () => OfflineDemo)
